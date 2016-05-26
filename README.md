@@ -6,19 +6,20 @@ Purpose
 
 KABlurTransition is a UIViewController and UINavigationController category that replicates the iOS realtime background blur effect, KABlurTransition offser two methods 'pushVC:animated:(BOOL)animated' and 'presentVC:animated:completion:'. Just use them when you want to push or present a view controller. And It is ARC.
 
-Supported iOSVersions
+Supported iOS Versions
 -------------------------
-Earliest supported deployment target - iOS 8.0
+iOS 8.0+  
 
 Installation
 ---------------
 
-To use KABlurTransition, just drag the class files into your project and import 'KABlurTransition.h' . You can just call the 'pushVC:animated:(BOOL)animated' and 'presentVC:animated:completion:' to push or present a view controller.
+To use KABlurTransition, drag the files from KABlurTransition into your project and import 'KABlurTransition.h' . You can just call the 'pushVC:animated:(BOOL)animated' and 'presentVC:animated:completion:' to push or present a view controller.
 
 What's next
 --------------------
 
-To support iOS 7.0  
+Support iOS 7.0  
+Support CocoaPods  
 Customization of Blur effect
 
 License
