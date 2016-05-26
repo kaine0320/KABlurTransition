@@ -18,7 +18,7 @@ To use KABlurTransition, just drag the class files into your project and import 
 What's next
 --------------------
 
-To support iOS 7.0
+To support iOS 7.0  
 Customization of Blur effect
 
 License
