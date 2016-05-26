@@ -7,7 +7,7 @@
 //
 
 #import "KADemoViewController.h"
-#import "KANavigation.h"
+#import "KABlurTransition.h"
 
 @implementation KADemoViewController
 

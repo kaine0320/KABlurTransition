@@ -43,7 +43,7 @@
 		D128D7A51CF767CE001CE8BA /* KABlurOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KABlurOverlayView.m; sourceTree = "<group>"; };
 		D128D7AD1CF76A98001CE8BA /* KAConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAConstant.h; sourceTree = "<group>"; };
 		D128D7AE1CF76A98001CE8BA /* KAConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAConstant.m; sourceTree = "<group>"; };
-		D128D7B01CF76AFB001CE8BA /* KANavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KANavigation.h; sourceTree = "<group>"; };
+		D128D7B01CF76AFB001CE8BA /* KABlurTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KABlurTransition.h; sourceTree = "<group>"; };
 		D128D7B21CF76BC8001CE8BA /* KADemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KADemoViewController.h; sourceTree = "<group>"; };
 		D128D7B31CF76BC8001CE8BA /* KADemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KADemoViewController.m; sourceTree = "<group>"; };
 		D128D7B51CF76BEC001CE8BA /* KADemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KADemoViewController.xib; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				D128D7A21CF767CE001CE8BA /* UIViewController+KANavigation.m */,
 				D128D7AD1CF76A98001CE8BA /* KAConstant.h */,
 				D128D7AE1CF76A98001CE8BA /* KAConstant.m */,
-				D128D7B01CF76AFB001CE8BA /* KANavigation.h */,
+				D128D7B01CF76AFB001CE8BA /* KABlurTransition.h */,
 				D128D7A31CF767CE001CE8BA /* View */,
 			);
 			name = KABlurTransition;
