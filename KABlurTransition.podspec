@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KABlurTransition'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KABlurTransition.'
+  s.summary          = 'KABlurTransition is a UIViewController and UINavigationController category that replicates the iOS realtime background blur effect.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ABlurTransition is a UIViewController and UINavigationController category that replicates the iOS realtime background blur effect, KABlurTransition offser two methods 'pushVC:animated:(BOOL)animated' and 'presentVC:animated:completion:'. Just use them when you want to push or present a view controller.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/KABlurTransition'
+  s.homepage         = 'https://github.com/kaine0320/KABlurTransition'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Hung' => 'abcalexgm@outlook.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/KABlurTransition.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kaine0320/KABlurTransition.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
