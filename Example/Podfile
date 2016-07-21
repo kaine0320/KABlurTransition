@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KABlurTransition_Tests' do
+  pod 'KABlurTransition', :path => '../'
+  
+  
+end

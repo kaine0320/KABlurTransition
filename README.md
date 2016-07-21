@@ -1,28 +1,29 @@
 # KABlurTransition
-iOS Transitioning with Blur effect
 
-Purpose
------------
+[![CI Status](http://img.shields.io/travis/Alex Hung/KABlurTransition.svg?style=flat)](https://travis-ci.org/Alex Hung/KABlurTransition)
+[![Version](https://img.shields.io/cocoapods/v/KABlurTransition.svg?style=flat)](http://cocoapods.org/pods/KABlurTransition)
+[![License](https://img.shields.io/cocoapods/l/KABlurTransition.svg?style=flat)](http://cocoapods.org/pods/KABlurTransition)
+[![Platform](https://img.shields.io/cocoapods/p/KABlurTransition.svg?style=flat)](http://cocoapods.org/pods/KABlurTransition)
 
-KABlurTransition is a UIViewController and UINavigationController category that replicates the iOS realtime background blur effect, KABlurTransition offser two methods 'pushVC:animated:(BOOL)animated' and 'presentVC:animated:completion:'. Just use them when you want to push or present a view controller. And It is ARC.
+## Example
 
-Supported iOS Versions
--------------------------
-iOS 8.0+  
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Installation
----------------
+## Requirements
 
-To use KABlurTransition, drag the files from KABlurTransition into your project and import 'KABlurTransition.h' . You can just call the 'pushVC:animated:(BOOL)animated' and 'presentVC:animated:completion:' to push or present a view controller.
+## Installation
 
-What's next
---------------------
+KABlurTransition is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-Support iOS 7.0  
-Support CocoaPods  
-Customization of Blur effect
+```ruby
+pod "KABlurTransition"
+```
 
-License
----------------
+## Author
+
+Alex Hung, abcalexgm@outlook.com
+
+## License
 
 KABlurTransition is available under the MIT license. See the LICENSE file for more info.
