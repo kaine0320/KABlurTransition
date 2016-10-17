@@ -1,6 +1,6 @@
 use_frameworks!
-target 'KABlurTransition_Tests' do
+target 'KABlurTransition' do
   pod 'KABlurTransition', :path => '../'
-  
+  pod 'PureLayout'
   
 end
