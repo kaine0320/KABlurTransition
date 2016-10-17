@@ -12,6 +12,5 @@
 
 @interface UIViewController (RENavigation) <UIViewControllerTransitioningDelegate>
 
-- (void)presentVC:(UIViewController * _Nonnull)presentedVC animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
-
+- (void)ka_presentViewController:(UIViewController *)presentedVC animated:(BOOL)animated completion:(void (^)(void))completion;
 @end

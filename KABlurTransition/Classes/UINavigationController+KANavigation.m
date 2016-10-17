@@ -25,12 +25,12 @@ static void * KANavigationControllerDelegateKey = &KANavigationControllerDelegat
     objc_setAssociatedObject(self, @selector(controllerDelegate), controllerDelegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (void)pushVC:(UIViewController *)vc animated:(BOOL)animated {
+- (void)ka_pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (!self.controllerDelegate) {
         self.controllerDelegate = [[KANavigationControllerDelegate alloc]initWithNavgationController:self];
     }
     self.delegate = self.controllerDelegate;
-    [self pushViewController:vc animated:animated];
+    [self pushViewController:viewController animated:animated];
 }
 
 @end

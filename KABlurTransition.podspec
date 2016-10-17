@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KABlurTransition'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'KABlurTransition is a UIViewController and UINavigationController category that replicates the iOS realtime background blur effect.'
 
 # This description is used to generate tags and improve search results.

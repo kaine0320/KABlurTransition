@@ -11,5 +11,6 @@
 
 #import "UINavigationController+KANavigation.h"
 #import "UIViewController+KANavigation.h"
+#import "KABlurManager.h"
 
 #endif /* KABlurTransition_h */

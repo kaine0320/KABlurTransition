@@ -10,21 +10,34 @@
 #import "UIViewController+KANavigation.h"
 #import "UINavigationController+KANavigation.h"
 #import "KABlurAnimatedTransitioning.h"
+#import "KABlurManager.h"
 
 @implementation UIViewController (RENavigation)
 
-- (void)presentVC:( UIViewController * _Nonnull )presentedVC animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion {
-    presentedVC.modalPresentationStyle = UIModalPresentationCustom;
-    presentedVC.transitioningDelegate = self;
-    [self presentViewController:presentedVC animated:animated completion:completion];
+- (void)ka_presentViewController:(UIViewController *)presentedVC animated:(BOOL)animated completion:(void (^)(void))completion {
+    
+    Class vcClass = [presentedVC class];
+    
+    if ([[KABlurManager sharedManager]shouldIngoreClass:vcClass]) {
+        
+        presentedVC.transitioningDelegate = nil;
+        [self presentViewController:presentedVC animated:animated completion:completion];
+        
+    } else {
+        
+        presentedVC.modalPresentationStyle = UIModalPresentationCustom;
+        presentedVC.transitioningDelegate = self;
+        [self presentViewController:presentedVC animated:animated completion:completion];
+    }
 }
 
 #pragma mark - UIViewControllerTransitioningDelegate
 
 - (id <UIViewControllerAnimatedTransitioning> _Nullable)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    
     KABlurAnimatedTransitioning *transition = [[KABlurAnimatedTransitioning alloc]init];
     transition.isAppearing = YES;
-
+    
     return transition;
 }
 

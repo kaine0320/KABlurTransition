@@ -4,7 +4,7 @@ iOS Transitioning with Blur effect
 Purpose
 -----------
 
-KABlurTransition is a UIViewController and UINavigationController category that replicates the iOS realtime background blur effect, KABlurTransition offser two methods 'pushVC:animated:(BOOL)animated' and 'presentVC:animated:completion:'. Just use them when you want to push or present a view controller. And It is ARC.
+KABlurTransition is a UIViewController and UINavigationController category that replicates the iOS realtime background blur effect, KABlurTransition offer two methods 'ka_pushViewController:animated:' and 'ka_presentViewController:animated:completion:'. Just replace pushViewControler:animated and presentViewController:animated:completion with them when you want to push or present a view controller. If you do not want the transition effect for specific view controller, just simply use 'ingoreClass:' method in KABlurManager;
 
 Supported iOS Versions
 -------------------------

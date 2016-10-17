@@ -14,6 +14,6 @@
 
 @property (nonatomic, strong, nullable) KANavigationControllerDelegate *controllerDelegate;
 
-- (void)pushVC:(UIViewController * _Nonnull)vc animated:(BOOL)animated;
+- (void)ka_pushViewController:(UIViewController *)viewController animated:(BOOL)animated;
 
 @end
